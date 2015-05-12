@@ -1,0 +1,447 @@
+/* CSS Document */
+
+body
+  {
+	  margin:0px;
+	  font-family:Tahoma, Geneva, sans-serif;
+	  font-size:16px;
+	  background-color:#F2F2F2;
+  }
+  
+  #pageTop
+  {
+	  background-image:url(../images/header.png);
+	  height:99px;
+	  margin:0px;
+  }
+  
+  #pageTop > #pageTopWrap
+  {
+	  width:1000px;
+	  margin:0px auto;
+	  height:99px;
+  }
+  
+  #pageTop > #pageTopWrap > #pageTopLogo
+  {
+	  float:left;
+	  height:89px;
+	  width:122px;
+	  padding-top:10px;
+	  padding-left:40px;
+	  border:none;
+  }
+  
+  #pageTop > #pageTopWrap > #pageTopLogo > a > img
+  {
+	  text-decoration: none; 
+	  border: 0px;
+	  cursor:pointer;
+  }
+  
+  #pageTop > #pageTopWrap > #pageTopRest
+  {
+	  float:left;
+	  height:99px;
+	  width:808px;
+	  background-image:url(../images/header.png);
+  }
+  
+     #pageTop > #pageTopWrap > #pageTopRest > #links
+  {
+	  float:right;
+	  padding-top:17px;
+	  color:#FFFFFF;
+	  text-align:center;
+  }
+  
+  #pageTop > #pageTopWrap > #pageTopRest > #links > form > input
+  {
+	  width:130px;
+	  margin-top:20px;
+  }
+  
+  #pageTop > #pageTopWrap > #pageTopRest > #links > form > button
+  {
+	  color:#666666;
+  }
+  
+  
+   #pageTop > #pageTopWrap > #pageTopRest > div > a
+  {
+	  text-decoration:none;
+	  color:#FFFFFF;
+  }
+  
+   #pageTop > #pageTopWrap > #pageTopRest > div > a:hover
+  {
+	  color:#666;
+  }
+  
+  #pageTop > #pageTopWrap > #pageTopRest > #menu
+  {
+	  text-align: center;
+	  margin-top: 60px;
+	  color:#FFF;
+  }
+  
+  
+   #pageTop > #pageTopWrap > #pageTopRest > #menu > b > label:hover
+  {
+	  text-decoration:none;
+	  color:#CCC;
+	  cursor:pointer;
+  }
+  
+  #wrapper
+  {
+  }
+  
+  #adTop
+  {
+	  color: #000; 
+	  width:728px;
+	  height:90px;
+	  /*border: solid;*/
+	  border-width: 1.5px;
+	  border-color:#14ABCC; 
+	  margin-left:auto; 
+	  margin-right:auto; 
+	  margin-bottom:20px;
+	  margin-top:20px;
+	  background-color:#FFF;
+  }
+  
+  #adBottom
+  {
+	  width:728px;
+	  height:90px; 
+	  /*border: solid;*/
+	  border-width: 1.5px;
+	  border-color:#14ABCC;
+	  margin-left:auto; 
+	  margin-right:auto;
+  }
+  
+  #adLeft
+  {
+	  width:120px;
+	  height:600px;
+	  float:left; 
+	  /*border: solid;*/
+	  border-width: 1.5px;
+	  border-color:#14ABCC;
+	  margin-left:30px; 
+
+  }
+  
+   #adRight
+  {
+	  width:120px;
+	  height:600px;
+	  float:right; 
+	  /*border: solid;*/
+	  border-width: 1.5px;
+	  border-color:#14ABCC;
+	  margin-right:30px; 
+
+  }
+  
+  #adIndividual
+  {
+	  width:250px;
+	  height:550px;
+	  float:right; 
+	  margin-right:30px; 
+  }
+  
+  #adIndividual1
+  {
+	  width:250px;
+	  height:250px;
+	  float:left;  
+	  border: solid;
+	  border-width: 1.5px;
+	  border-color:#14ABCC;
+  }
+  
+  #adIndividual2
+  {
+	  width:250px;
+	  height:250px;
+	  float:left; 
+	  border: solid;
+	  border-width: 1.5px;
+	  border-color:#14ABCC;
+	  margin-top:20px;
+  }
+  
+  #category
+  {
+	  width:1000px;
+	  height:22px;
+	  margin-left:200px;
+	  margin-top:10px;
+	  color:#14ABCC;
+	  float:left;
+  }
+  
+  #sort
+  {
+	  width:200px;
+	  height:22px;
+	  margin-right:150px;
+	  margin-top:10px;
+	  color:#14ABCC;
+	  float:right;
+  }
+  
+   #sort > form > select
+   {
+	   background-color:#EAEAEA;
+	   border-color:#CCCCCC;
+	   color:#666;
+   }
+  
+  #shadow
+  {
+	  background-image:url(../images/dropshadow.jpg);
+	  width:1060px;
+	  margin:0px auto;
+  }
+  
+  #pageMiddle
+  {
+	  min-height:260px;
+	  height:auto;
+	  width:1000px;
+	  margin:0px auto;
+	  padding-bottom:50px;
+	  background-color:#FFFFFF;
+	  
+  }
+  
+  
+  #pageMiddle > #mainContent
+  {
+	  min-height:260px;
+	  height:auto;
+	  width:1000px;
+	  margin:0px auto;
+  }
+  
+ #pageMiddle #mainContent table tr td h3
+ {
+	text-align: center;
+	margin-bottom:0px;
+	margin-top:40px;
+ }
+ 
+ 
+ #pageMiddle #mainContent table tr td p
+ {
+	font-size:12pt;
+	text-align: justify;
+ }
+  
+ #pageMiddle #mainContent table tr, td
+ {
+	
+ }
+ 
+ #productName
+ {
+	 color:#939;
+	 font-family:Arial Black, Gadget, sans-serif;
+ }
+ 
+ #productName > label
+ {
+	 color: #14ABCC;
+	 font-family:Arial Black, Gadget, sans-serif;
+ }
+
+ #productName > label:hover
+ {
+	 color:#939;
+	 cursor:pointer;
+ }
+ 
+#productImage img
+ {
+	 border: solid;
+	 border-width: 1.5px;
+	 border-color:#14ABCC;
+	 margin-left:24px;
+	 cursor:pointer;
+ }
+ 
+ #descriptionBox > p
+ {
+	 height:120px;
+	 width:280px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-top:0px;
+	 margin-bottom:0px;	 
+	 overflow:hidden;
+	 font-family:Arial, Helvetica, sans-serif;
+	 color:#666666;
+ }
+ 
+ #price
+ {
+	 float:left;
+	 width:125px;
+	 margin-left:30px;
+	 font-size:17px;
+	 font:Arial Black, Gadget, sans-serif;
+	 color:#7AC943;
+ }
+ 
+ #saves > label
+ {
+	 float:left;
+	 margin-left:31px;
+	 margin-top:3px;
+	 font-size:14px;
+	 color: #14ABCC;
+	 cursor:pointer;
+ }
+ 
+ #saves > label:hover
+ {
+	 color: #939;
+	 cursor:pointer;
+ }
+ 
+ #delete
+ {
+	 float:right;
+	 border:solid;
+	 border-width:3px;
+	 border-color:#14ABCC;
+	 color:#14ABCC;
+	 background-color:#CCC;
+ }
+ 
+ #button
+ {
+	 float:right;
+	 margin-right:30px;
+ }
+  
+  #button > a > img
+  {
+  	 text-decoration: none; 
+	 border: 0px
+  }
+  
+  #productWrapper
+  {
+	  width:700px;
+	  height:320;
+	  background-image:url(../images/dropshadowsmall.jpg);
+	  margin-top:50px;
+	  margin-bottom:40px;
+	  margin-left:25px; /* + indproduct padding 20 */
+  }  
+ 
+ #indProduct
+ {
+	 height:270px;
+	 width:600px;
+	 padding:20px;
+	 border-top:solid 1px #CCC;
+	 border-bottom:solid 1px #CCC;
+	 border-left:solid 1px #CCC;
+	 border-right:solid 1px #CCC;
+	 margin-left:auto;
+	 margin-right:auto;
+	 background-color:#FFFFFF;
+ }
+ 
+ #indProduct > #descriptionTitleBox
+ {
+	 height:265px;
+	 width:290px;
+	 float:right;
+ }
+ 
+ #indDescription 
+ {
+	 height:170px;
+	 overflow:hidden;
+	 text-align:justify;
+ }
+ 
+ #indProduct > #descriptionTitleBox > #priceSaveBox
+ {
+	 height:75px;
+	 margin-top:10px;
+ }
+ 
+ #indProduct > #indImage
+ {
+	 float:left;
+	 width:265px;
+	 height:265px;
+	 border: solid;
+	 border-width: 1.5px;
+	 border-color:#14ABCC;
+	 cursor:pointer;
+ }
+ 
+ #indPrice
+ {
+	 float:left;
+	 width:130px;
+	 font-size:17px;
+	 font:Arial Black, Gadget, sans-serif;
+	 color:#7AC943;
+ }
+ 
+   #indButton > a > img
+  {
+  	 text-decoration: none; 
+	 float:right;
+  }
+ 
+ #indSaves
+ {
+	 float:left;
+	 font-size:14px;
+	 color: #666;
+	 width:120px;
+	 cursor:pointer;
+	 margin-top:5px;
+	 margin-left:5px;
+ }
+ 
+ #indSaves > b > label:hover
+ {
+	 color:#939;
+	 cursor:pointer;
+ }
+ 
+ #socialNetworks
+ {
+	 width:290px;
+	 height:20px;
+	 float:left;
+	 margin-top:5px;
+ }
+ 
+  
+  #pageBottom
+  {
+	  width:1000px;
+	  margin-left:auto;
+	  margin-right:auto;
+	  margin-top:0px;
+	  padding-bottom:40px;
+	  font-size:14px;
+	  color:#000;
+  }
+  
+  
